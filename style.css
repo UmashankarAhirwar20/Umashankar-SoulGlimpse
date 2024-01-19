@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    animation-duration: 5s;
+    animation-name: bg;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+
+    /* background-image: linear-gradient(180deg, #463f3a, #8a817c, #bcb8b1); */
+}
+
+@keyframes bg{
+    0%{background-color: #463f3a;}
+    25%{background-color: #655c57;}
+    50%{background-color: #7d776e;}
+    75%{background-color: 655c57;}
+    100%{background-color: #463f3a;}
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+header{
+    height: 15vh;
+    width: 100vw;
+    position: relative;
+    color: #f4f3ee;
+}
+.nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Helvetica, sans-serif;
+
+}
+
+.nav_logo{
+    height: 8vh;
+    width: 25vw;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 10vh;
+    width: 12vw;
+    cursor: pointer;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    margin-right: 4vw;
+    margin-top: 4.5vh;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+h4:hover{
+    background-color: #8a817c;
+    padding: 2vh 4vh;
+    border-radius: 1vh;
+}
+
+#hori-line{
+    width: 90vw;
+    height: 0.1vh;
+    background-color: #000000;
+    margin-left: 5vw;
+    box-shadow: 5px 5px 10px #534c48;
+}
+
+/* main body part of soulglimpse */
+.main{
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+}
+.box{
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+}
+
+.box-img{
+    height: 50vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 1vh;
+    box-shadow: 5px 5px 10px #7b7b7b;
+    margin-left: 5vw;
+}
+.box-img2{
+    height: 50vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 1vh;
+    box-shadow: 5px 5px 10px #000000;
+    margin-right: 5vw;
+}
+
+.img-info{
+    height: 50vh;
+    font-family: Helvetica, sans-serif;
+
+
+}
+
+.heading{
+    text-transform: uppercase;
+   
+    font-size: 8vh;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    background-image: linear-gradient(43deg, #aa5e6b 0%, #ffc8a8 56%);
+    background-clip: text ;
+    color: transparent;
+}
+
+.para{
+    margin-left: 11vh;
+    font-size: small;
+    color: #f4f3ee;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #e0afa0;
+    color: #f4f3ee;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20vh;
+    margin-top: 5vh;
+}
+
+button:hover {
+    background-color: #d3939b;
+}
+
+
+
+.connect-sec{
+    display: flex;
+    margin-top: 20vh;
+}
+
+.conn{
+    margin-top: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prt1{
+    width: 30vw;
+    height: 20vh;
+    background-color: #bcb8b1;
+}
+
+#ver-line{
+    width: 0.1vw;
+    height: 1vh;
+}
+
+    
+
+.prt2{
+    width: 70vw;
+    height: 20vh;
+    background-color:#bcb8b1;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prt2-heading{
+    width: 30vw;
+}
+
+.email{
+    width: 30vw; 
+    height: 5vh;  
+    border-top-left-radius: 0.5vh;
+    border-bottom-left-radius: 0.5vh;
+    margin-left: 3vw;
+    border: #bcb8b1;
+}
+
+.send{
+    background-color: rgb(255, 182, 48);
+    height: 5vh;
+    width: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 0.5vh;
+    border-bottom-right-radius: 0.5vh;
+    font-size: 3vh;
+}
+
+
+.icon{
+    margin-left: 4.5vw;
+    margin-bottom: vh;
+}
+
+.fa-brands{
+    margin-left: 0.5vw;
+}
+.fa-solid{
+    margin-left: 0.5vw;
+}
+
+
+.footer {
+    font-family:  Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #e0afa0;
+    background-image: linear-gradient(43deg, #d38693 0%, #ffc3a0 56%);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
